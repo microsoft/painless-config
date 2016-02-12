@@ -50,4 +50,3 @@ The env.json must have the following structure:
 
 # Contributing
 Pull requests that honor the traits above will gladly be considered!
->>>>>>> Initial version
