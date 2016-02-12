@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/npm/v/painless-config.svg) 
-![License](https://img.shields.io/npm/l/painless-config.svg) 
+![License](https://img.shields.io/github/license/Microsoft/painless-config.svg) 
 ![Downloads](https://img.shields.io/npm/dt/painless-config.svg)
 
 # painless-config
