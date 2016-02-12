@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/npm/v/quick-config.svg) 
+![License](https://img.shields.io/npm/l/quick-config.svg) 
+![Downloads](https://img.shields.io/npm/dt/express.svg)
+
 # quick-config
 Low friction library for application configuration.
 
