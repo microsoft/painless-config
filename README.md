@@ -1,8 +1,8 @@
-![Version](https://img.shields.io/npm/v/quick-config.svg) 
-![License](https://img.shields.io/npm/l/quick-config.svg) 
-![Downloads](https://img.shields.io/npm/dt/quick-config.svg)
+![Version](https://img.shields.io/npm/v/painless-config.svg) 
+![License](https://img.shields.io/npm/l/painless-config.svg) 
+![Downloads](https://img.shields.io/npm/dt/painless-config.svg)
 
-# quick-config
+# painless-config
 Low friction library for application configuration.
 
 # Why another configuration library?
@@ -22,12 +22,12 @@ following traits:
 # Usage
 Add a dependency to the npm package:
 ```bash
-npm install quick-config --save
+npm install painless-config --save
 ```
 
 Require the module and then retrieve the configuration settings you want:
 ```javascript
-var config = require('quick-config');
+var config = require('painless-config');
 var widgetPath = config.get('WIDGET_PATH');
 ```
 

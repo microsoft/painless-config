@@ -1,5 +1,5 @@
 {
-  "name": "quick-config",
+  "name": "painless-config",
   "version": "0.1.0",
   "description": "Low friction library for application configuration.",
   "main": "index.js",
@@ -9,11 +9,11 @@
   "keywords": [
     "config","configuration","env","environment","setting"
   ],
-  "homepage": "https://github.com/Microsoft/quick-config",
-  "bugs": "https://github.com/Microsoft/quick-config/issues",
+  "homepage": "https://github.com/Microsoft/painless-config",
+  "bugs": "https://github.com/Microsoft/painless-config/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/quick-config.git"
+    "url": "https://github.com/Microsoft/painless-config.git"
   },
   "author": "William Bartholomew <willbar@microsoft.com>",
   "license": "MIT",

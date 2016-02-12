@@ -1,1 +1,1 @@
-module.exports = require('./lib/quick-config');
+module.exports = require('./lib/painless-config');
