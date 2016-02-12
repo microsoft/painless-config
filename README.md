@@ -13,6 +13,7 @@ all, there are now 15 configuration libraries.
 
 In all seriousness, we were looking for a configuration library that had the
 following traits:
+
 1. Has a low barrier to entry and is simple
 1. Primarily uses environment variables (usually for production)
 1. Could fallback to a file (usually for local development)
@@ -32,6 +33,7 @@ var widgetPath = config.get('WIDGET_PATH');
 
 # Resolution order
 Configuration settings will be resolved in this order:
+
 1. Environment variable
 1. Closest ancestor env.json to the working directory
 1. Return undefined
