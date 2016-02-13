@@ -1,6 +1,7 @@
 ![Version](https://img.shields.io/npm/v/painless-config.svg) 
 ![License](https://img.shields.io/github/license/Microsoft/painless-config.svg) 
 ![Downloads](https://img.shields.io/npm/dt/painless-config.svg)
+![Dependencies](https://img.shields.io/david/strongloop/express.svg)
 
 # painless-config
 Low friction library for application configuration.
@@ -29,6 +30,28 @@ Require the module and then retrieve the configuration settings you want:
 ```javascript
 var config = require('painless-config');
 var widgetPath = config.get('WIDGET_PATH');
+```
+
+You can also retrieve all settings as a complex object:
+```javascript
+var allSettings = config.all();
+```
+
+Any - or _ in the environment variable's name will be used to create the
+object's structure. For example, given these environment variables:
+```bash
+RECT_WIDTH=16
+RECT_HEIGHT=9
+```
+
+This object would be returned:
+```javascript
+{
+  "RECT": {
+    "WIDTH": 16,
+    "HEIGHT": 9 
+  } 
+}
 ```
 
 # Resolution order
