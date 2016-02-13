@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "config","configuration","env","environment","setting"
+    "config",
+    "configuration",
+    "env",
+    "environment",
+    "setting"
   ],
   "homepage": "https://github.com/Microsoft/painless-config",
   "bugs": "https://github.com/Microsoft/painless-config/issues",
@@ -22,6 +26,7 @@
     "lib"
   ],
   "dependencies": {
+    "object-path": "^0.9.2",
     "walk-back": "^1.1.0"
   }
 }
