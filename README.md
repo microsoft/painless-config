@@ -10,6 +10,7 @@ There were 14 configuration libraries so we needed to build one to unify them
 all, there are now 15 configuration libraries.
 
 ![XKCD Comic](http://imgs.xkcd.com/comics/standards.png)
+From: https://xkcd.com/927/
 
 In all seriousness, we were looking for a configuration library that had the
 following traits:
