@@ -1,13 +1,12 @@
-![Version](https://img.shields.io/npm/v/painless-config.svg) 
-![License](https://img.shields.io/github/license/Microsoft/painless-config.svg) 
+![Version](https://img.shields.io/npm/v/painless-config.svg)
+![License](https://img.shields.io/github/license/Microsoft/painless-config.svg)
 ![Downloads](https://img.shields.io/npm/dt/painless-config.svg)
-![Dependencies](https://img.shields.io/david/strongloop/express.svg)
 
 # painless-config
 Low friction library for application configuration.
 
 # Why another configuration library?
-There were 14 configuration libraries so we needed to build one to unify them 
+There were 14 configuration libraries so we needed to build one to unify them
 all, there are now 15 configuration libraries.
 
 ![XKCD Comic](http://imgs.xkcd.com/comics/standards.png)
@@ -49,8 +48,8 @@ This object would be returned:
 {
   "RECT": {
     "WIDTH": 16,
-    "HEIGHT": 9 
-  } 
+    "HEIGHT": 9
+  }
 }
 ```
 
