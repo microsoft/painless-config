@@ -59,11 +59,12 @@ Configuration settings will be resolved in this order:
 
 1. Environment variable
 1. Closest ancestor env.json to the working directory
+1. Closest ancestor env.yaml to the working directory
 1. Return undefined
 
 # Fallback
 If an environment variable cannot be found then the library will begin walking
-up the tree from the current working directory until it finds an env.json file.
+up the tree from the current working directory until it finds an env.json or env.yaml file.
 
 The env.json must have the following structure:
 ```javascript
@@ -71,6 +72,12 @@ The env.json must have the following structure:
   "setting1": "value1",
   "setting2": "value2"
 }
+```
+
+Alternatively, the env.yaml must have the following structure:
+```yaml
+setting1: value1
+setting2: value2
 ```
 
 # Contributing
