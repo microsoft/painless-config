@@ -66,7 +66,7 @@ If an environment variable cannot be found then the library will begin walking
 up the tree from the current working directory until it finds an env.json file.
 
 The env.json must have the following structure:
-```javascript
+```json
 {
   "setting1": "value1",
   "setting2": "value2"
