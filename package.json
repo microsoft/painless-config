@@ -1,6 +1,6 @@
 {
   "name": "painless-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Low friction library for application configuration.",
   "main": "index.js",
   "types": "./lib/painless-config.d.ts",
@@ -24,7 +24,7 @@
     "lib"
   ],
   "dependencies": {
-    "object-path": "^0.11.5",
+    "object-path": "0.11.5",
     "walk-back": "^1.1.0"
   }
 }
